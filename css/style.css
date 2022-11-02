@@ -43,7 +43,7 @@ header{
 
 .card{
     background-color: #b5ddff;
-    
+    height: 80px;
 }
 
 .contenuto-card{
@@ -68,7 +68,7 @@ header{
     
     .contenuto-card {
 
-        height: 400px;
+       
 
         flex-direction: row;
 
@@ -76,4 +76,44 @@ header{
 
     }
 
+}
+
+/* ----------------------- */
+
+
+.section-viola{
+    background-color: #9792e4;
+    
+}
+
+.card-white{
+
+    background-color: white;
+    margin: 2rem 1rem;
+}
+
+.contenuto-plan{
+
+    flex-direction: column;
+}
+
+@media all and (min-width:1024px) {
+
+    .contenuto-plan{
+        flex-direction: row;
+    }
+
+
+}
+
+/* ------------ */
+
+
+.contenuto-partner{
+    flex-direction: column;
+}
+
+.card-partner{
+
+    background-color: #9792e4;
 }

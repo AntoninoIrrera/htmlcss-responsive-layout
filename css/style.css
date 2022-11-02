@@ -37,3 +37,43 @@ header{
     }
     
 }
+
+/* -------------------- */
+
+
+.card{
+    background-color: #b5ddff;
+    
+}
+
+.contenuto-card{
+
+
+    flex-direction: column;
+
+}
+
+@media all and (min-width:768px) {
+
+    
+    .card {
+        width: calc(100% / 3);
+
+        
+    }
+    
+    .card-x2 {
+        width: calc((100% / 3) * 2);
+    }
+    
+    .contenuto-card {
+
+        height: 400px;
+
+        flex-direction: row;
+
+        flex-wrap: wrap;
+
+    }
+
+}

@@ -8,15 +8,18 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
+/* ---------- */
+
 header{
     background-color: #0084fd;
 }
 
 .navbar{
-    padding: 2rem;
     color: white;
 
     justify-content: space-between;
+
+    align-items: center;
 }
 
 .conteiner{
@@ -27,6 +30,42 @@ header{
     display: flex;
 }
 
+.logo{
+    width: 25%;
+    padding: 1rem 0 1rem 1.5rem;
+}
+
+.fa-bars{
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.bottone-header{
+    background-color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+
+}
+
+.comparire{
+    display: none;
+}
+
+@media all and (min-width:768px) {
+        
+    .logo{
+        width: 15%;
+    }
+
+}
+
 
 @media all and (min-width:1024px) {
 
@@ -34,6 +73,18 @@ header{
         
         width: 80%;
         margin: 0 auto;
+    }
+
+    .sparire{
+        display: none;
+    }
+
+    .comparire{
+        display: inline-block;
+    }
+
+    .logo{
+        width: 10%;
     }
     
 }

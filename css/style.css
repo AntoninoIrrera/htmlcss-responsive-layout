@@ -8,15 +8,32 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
-.navbar{
+header{
     background-color: #0084fd;
-    padding: 2rem;
+}
 
+.navbar{
+    padding: 2rem;
     color: white;
 
     justify-content: space-between;
 }
 
+.conteiner{
+    width: 100%;
+}
+
 .flex{
     display: flex;
+}
+
+
+@media all and (min-width:1024px) {
+
+    .conteiner {
+        
+        width: 80%;
+        margin: 0 auto;
+    }
+    
 }

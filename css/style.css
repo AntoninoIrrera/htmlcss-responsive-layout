@@ -110,7 +110,7 @@ header{
 .immagine-phone{
     width: 100%;
 
-    margin-bottom: -3.7px;
+    margin-bottom: -4px;
 
 }
 
@@ -143,7 +143,7 @@ header{
 }
 
 .contenitore-scritte-card{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 
     
@@ -197,9 +197,7 @@ div.card>p{
 
     }
 
-         .contenitore-scritte-card {
-             width: 90%;
-         }
+        
 
 }
 
@@ -207,7 +205,6 @@ div.card>p{
 @media all and (min-width:1024px) {
     .contenitore-scritte-card{
         display: flex;
-        width: 90%;
         height: 100%;
     }
 
@@ -242,7 +239,11 @@ div.card>p{
 .card-white{
 
     background-color: white;
-    margin: 2rem 1rem;
+    margin: 2rem 0;
+
+    border-radius: 25px;
+
+    text-align: center;
 }
 
 .contenuto-plan{
@@ -250,18 +251,77 @@ div.card>p{
     flex-direction: column;
 }
 
+
+.planning1{
+    width: 70%;
+
+    margin: 3rem 0;
+}
+
+.planning2{
+    width: 80%;
+}
+
+.color-white{
+    color: white;
+    text-align: left;
+   
+    margin-top: 2rem;
+
+}
+
+div.card-white>p{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.contenitore-contenuto-planning{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bottone-freccia{
+    background-color: #9792e4;
+    padding: 1rem 1.2rem;
+    border-radius: 100%;
+    border: none;
+
+    margin: 2rem 0;
+}
+
 @media all and (min-width:1024px) {
 
     .contenuto-plan{
         flex-direction: row;
+    
+       height: 90vh;
+
+    
+    
+      
     }
 
+    .color-white{
+        margin: 2rem 0;
+    }
+    
+    .contenitore-contenuto-planning-end{
+        align-self: flex-end;
+    }
+    
+}
 
+@media all and (min-width:1200px) {
+
+    .contenuto-plan{
+        height: 100vh;
+    }
+    
 }
 
 /* ------------ */
 
-
+/* iniziare da qua */
 .contenuto-partner{
     flex-direction: column;
 

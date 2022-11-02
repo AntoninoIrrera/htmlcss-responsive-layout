@@ -111,9 +111,54 @@ header{
 
 .contenuto-partner{
     flex-direction: column;
+
 }
 
 .card-partner{
 
     background-color: #9792e4;
 }
+
+/* -------------- */
+
+.contenuto-benefici{
+
+    flex-direction: column;
+}
+
+
+
+.benefici{
+    background-color: white;
+    margin: 1rem;
+}
+
+
+@media all and (min-width:768px) {
+
+    
+    .contenuto-benefici {
+        
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+
+
+    .benefici{
+
+        width: calc((100% / 2) - 2rem);
+    }
+   
+}
+
+@media all and (min-width:1024px) {
+
+    .benefici{
+
+        width: calc((100% / 3) - 2rem);
+    }
+
+
+}
+
+/* ------------------- */

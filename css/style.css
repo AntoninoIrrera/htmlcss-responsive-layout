@@ -7,3 +7,16 @@
 body{
     font-family: 'PT Sans', sans-serif;
 }
+
+.navbar{
+    background-color: #0084fd;
+    padding: 2rem;
+
+    color: white;
+
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}

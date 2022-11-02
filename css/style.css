@@ -94,7 +94,10 @@ header{
 
 .card{
     background-color: #b5ddff;
-    height: 80px;
+    
+    margin: 1.5rem;
+
+    border-radius: 25px;
 }
 
 .contenuto-card{
@@ -104,17 +107,84 @@ header{
 
 }
 
+.immagine-phone{
+    width: 100%;
+
+    margin-bottom: -3.7px;
+
+}
+
+.bottone-app-store{
+    display: block;
+
+    color: white;
+
+    background-color: #0084fd;
+
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    border: none;
+
+    width: 70%;
+
+
+}
+
+.center-align{
+    text-align: center;
+}
+
+.color-blu{
+    color: #0084fd;
+}
+
+.margine-top-bottom{
+    margin: 1rem 0;
+}
+
+.contenitore-scritte-card{
+    width: 80%;
+    margin: 0 auto;
+
+    
+}
+
+div.card>i{
+    color: #0084fd;
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+div.card>p{
+    padding-bottom: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
 @media all and (min-width:768px) {
 
     
     .card {
-        width: calc(100% / 3);
+        width: calc((100% / 3) - 1rem);
 
-        
+        margin: 0.5rem
+    }
+
+    .immagine-phone {
+        width: 70%;
+    
+     margin-bottom: -4px;
+
+    
+    
+    }
+
+    .bottone-app-store{
+        width: 50%;
     }
     
     .card-x2 {
-        width: calc((100% / 3) * 2);
+        width: calc(((100% / 3) * 2) - 1rem);
     }
     
     .contenuto-card {
@@ -127,7 +197,39 @@ header{
 
     }
 
+         .contenitore-scritte-card {
+             width: 90%;
+         }
+
 }
+
+
+@media all and (min-width:1024px) {
+    .contenitore-scritte-card{
+        display: flex;
+        width: 90%;
+        height: 100%;
+    }
+
+    .bottone-app-store{
+        width: 80%;
+    }
+
+    .contenitore-immagine-phone {
+        
+        align-self: flex-end;
+        
+    }
+
+     .immagine-phone {
+        width: 110%;
+
+        
+
+    }
+}
+
+
 
 /* ----------------------- */
 

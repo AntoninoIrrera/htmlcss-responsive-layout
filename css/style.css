@@ -192,3 +192,14 @@ header{
     
     
 }
+
+/* ------------ */
+
+.contenuto-finale{
+    flex-direction: column;
+}
+
+.bottone-inizia{
+    width: 80%;
+    margin: 0 auto;
+}

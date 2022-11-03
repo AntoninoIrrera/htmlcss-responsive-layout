@@ -325,6 +325,10 @@ div.card-white>p{
       
     }
 
+    .contenitore-contenuto-planning{
+        width: 70%;
+    }
+
     .color-white{
         margin: 2rem 0;
     }
@@ -337,7 +341,7 @@ div.card-white>p{
         position: absolute;
         width: 35%;
         top: 0;
-        left: 10%;
+        left: 15%;
     }
 
     div.contenitore-contenuto-planning>p,
@@ -350,11 +354,13 @@ div.card-white>p{
     div.contenitore-contenuto-planning>h2{
 
         bottom: 15%;
+        left: 15%;
     }
 
     div.contenitore-contenuto-planning>p{
         width: 35%;
         bottom: 0;
+        left: 15%;
     }
     
 }
@@ -525,7 +531,7 @@ div.section-viola>h2{
 
     .benefici-card{
 
-        width: calc((100% / 3) - 2rem);
+        width: calc((100% / 3) - 3rem);
     }
 
 
@@ -602,6 +608,13 @@ div.contenitori-contenuto-generale>i{
         width: 60%;
     }
     
+}
+
+@media all and (min-width:1024px){
+
+    .contenuto-generale {
+        justify-content: space-between;
+    }
 }
 
 /* css sesta section */

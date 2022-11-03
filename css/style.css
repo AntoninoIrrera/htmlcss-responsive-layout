@@ -31,6 +31,9 @@ body{
     border-radius: 25px;
 }
 
+.padding-bottom{
+    padding-bottom: 3rem;
+}
 
 /* css header */
 
@@ -197,11 +200,13 @@ div.card>p{
     .immagine-phone {
         width: 70%;
     
-     margin-bottom: -4px;
+        margin-bottom: -4px;
 
     
     
     }
+
+   
 
     .bottone-app-store{
         width: 50%;
@@ -220,6 +225,8 @@ div.card>p{
         flex-wrap: wrap;
 
         padding: 1rem;
+
+        padding-bottom: 3rem;
 
     }
 
@@ -265,7 +272,6 @@ div.card>p{
 .card-white{
 
     background-color: white;
-    margin: 1.5rem;
 
     border-radius: 25px;
 
@@ -600,10 +606,18 @@ div.contenitori-contenuto-generale>i{
 
     .contenitori-contenuto-generale {
 
-        width: 40%;
         margin: 2rem 1rem;
     }
     
+    .contenitori-contenuto-generale-left{
+        width: 50%;
+    }
+
+    .contenitori-contenuto-generale-right {
+        width: 40%;
+    }
+
+
     div.contenitori-contenuto-generale>p.color-viola{
         width: 60%;
     }

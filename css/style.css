@@ -265,7 +265,7 @@ div.card>p{
 .card-white{
 
     background-color: white;
-    margin: 2rem 0;
+    margin: 1.5rem;
 
     border-radius: 25px;
 
@@ -279,7 +279,7 @@ div.card>p{
 
 
 .planning1{
-    width: 70%;
+    width: 100%;
 
     margin: 3rem 0;
 }
@@ -302,8 +302,7 @@ div.card-white>p{
 }
 
 .contenitore-contenuto-planning{
-    width: 90%;
-    margin: 0 auto;
+    margin: 1.5rem;
 }
 
 .bottone-freccia{
@@ -373,8 +372,7 @@ div.card-white>p{
 
     background-color: #9792e4;
 
-    width: 80%;
-    margin: 1rem auto;
+    margin: 1.5rem;
 
     border-radius: 25px;
 
@@ -396,8 +394,7 @@ div.contenitore-card-partner>p{
 
 section.contenuto-partner>p,
 section.contenuto-partner>h2{
-    width: 80%;
-    margin: 1rem auto;
+    margin: 1.5rem;
 }
 
 .margine-bottom{
@@ -493,11 +490,10 @@ div.section-viola>h2{
 
 .benefici-card{
     background-color: white;
-    margin: 1rem auto;
+    margin: 1.5rem;
 
     border-radius: 25px;
 
-    width: 90%;
     
 }
 
@@ -544,8 +540,7 @@ div.section-viola>h2{
 }
 
 .contenitori-contenuto-generale{
-    width: 90%;
-    margin: 1rem auto;
+    margin: 1.5rem;
 
     position: relative;
 }
@@ -639,13 +634,15 @@ div.contenitori-contenuto-generale>i{
     vertical-align: middle;
 }
 
+.contenitore-contenuto-finale{
+    margin: 1.5rem;
+}
+
 .politica-privata{
     color: white;
 }
 
-.padding-left-right{
-    padding: 0 1.5rem;
-}
+
 
 .f-size-xs{
     font-size: 0.8rem;
@@ -687,4 +684,10 @@ footer{
 
 section.footer a{
     color: #9792e4;
+}
+
+
+.margine-left-right{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }

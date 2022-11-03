@@ -516,7 +516,7 @@ div.section-viola>h2{
 
     .benefici-card{
 
-        width: calc((100% / 2) - 2rem);
+        width: calc((100% / 2) - 3rem);
     }
    
 }
@@ -589,13 +589,13 @@ div.contenitori-contenuto-generale>i{
 
         flex-direction: row;
         
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .contenitori-contenuto-generale {
 
-         width: 40%;
-        margin: 1rem 1rem;
+        width: 40%;
+        margin: 2rem 1rem;
     }
     
     div.contenitori-contenuto-generale>p.color-viola{
@@ -666,6 +666,22 @@ div.contenitori-contenuto-generale>i{
     color: white;
 }
 
+@media all and (min-width:768px) {
+    .testo-tablet{
+        width: 70%;
+        margin: 1rem auto;
+    }
+
+    .bottone-inizia{
+        width: 30%;
+    }
+
+    .f-size-xl{
+        font-size: 3rem;
+
+    }
+}
+
 /* css footer */
 
 .footer{
@@ -690,4 +706,11 @@ section.footer a{
 .margine-left-right{
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+}
+
+@media all and (min-width:768px){
+    section.footer p{
+        width: 50%;
+        margin: 2rem auto;
+    }
 }

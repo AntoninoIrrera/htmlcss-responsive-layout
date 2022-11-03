@@ -578,11 +578,63 @@ div.contenitori-contenuto-generale>i{
 
 .contenuto-finale{
     flex-direction: column;
+
+    text-align: center;
 }
 
 .bottone-inizia{
-    width: 80%;
-    margin: 0 auto;
+    width: 70%;
+    margin: 1rem auto;
+
+    color: #9792e4;
+    border-radius: 25px;
+    border: none;
+    padding: 0.8rem 0;
+
+    background-color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.f-size-xl{
+    font-size: 1.5rem;
+
+}
+
+.fa-circle{
+    font-size: 0.3rem;
+
+    vertical-align: middle;
+}
+
+.politica-privata{
+    color: white;
+}
+
+.padding-left-right{
+    padding: 0 1.5rem;
+}
+
+.f-size-xs{
+    font-size: 0.8rem;
+}
+
+.margine-top{
+    margin-top: 3rem;
+}
+
+.colore-inizia{
+    color: #d5d4f4;
+}
+
+.gratis{
+    color: #fdc15f;
+
+    font-size: 4rem;
+}
+
+.color-white-ft{
+    color: white;
 }
 
 /* -------------- */

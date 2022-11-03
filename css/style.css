@@ -127,6 +127,8 @@ header{
 
     flex-direction: column;
 
+    
+
 }
 
 .immagine-phone{
@@ -216,6 +218,8 @@ div.card>p{
         flex-direction: row;
 
         flex-wrap: wrap;
+
+        padding: 1rem;
 
     }
 
@@ -316,8 +320,7 @@ div.card-white>p{
     .contenuto-plan{
         flex-direction: row;
     
-       height: 80vh;
-
+       padding-top: 8rem;
     
     
       
@@ -327,19 +330,36 @@ div.card-white>p{
         margin: 2rem 0;
     }
     
-    .contenitore-contenuto-planning-end{
-        align-self: flex-end;
+    .section-viola{
+        position: relative;
+    }
+
+    .planning1{
+        position: absolute;
+        width: 35%;
+        top: 0;
+        left: 10%;
+    }
+
+    div.contenitore-contenuto-planning>p,
+    div.contenitore-contenuto-planning>h2{
+
+        position: absolute;
+
+    }
+
+    div.contenitore-contenuto-planning>h2{
+
+        bottom: 15%;
+    }
+
+    div.contenitore-contenuto-planning>p{
+        width: 35%;
+        bottom: 0;
     }
     
 }
 
-@media all and (min-width:1200px) {
-
-    .contenuto-plan{
-        height: 100vh;
-    }
-    
-}
 
 /* css terza section */
 

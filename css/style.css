@@ -428,16 +428,44 @@ section.contenuto-partner>h2{
 .contenuto-benefici{
 
     flex-direction: column;
+
+    padding-bottom: 5rem;
+}
+
+
+.bottone-more{
+    color: white;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 25px;
+    background-color: #9792e4;
+
+    margin: 1rem 0;
+}
+
+div.section-viola>h2{
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 
 
-
-
-.benefici{
+.benefici-card{
     background-color: white;
-    margin: 1rem;
+    margin: 1rem auto;
+
+    border-radius: 25px;
+
+    width: 90%;
+    
 }
+
+.contenuto-benefici-card{
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 
 @media all and (min-width:768px) {
@@ -450,7 +478,7 @@ section.contenuto-partner>h2{
     }
 
 
-    .benefici{
+    .benefici-card{
 
         width: calc((100% / 2) - 2rem);
     }
@@ -459,7 +487,7 @@ section.contenuto-partner>h2{
 
 @media all and (min-width:1024px) {
 
-    .benefici{
+    .benefici-card{
 
         width: calc((100% / 3) - 2rem);
     }

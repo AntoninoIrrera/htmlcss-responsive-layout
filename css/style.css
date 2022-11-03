@@ -488,12 +488,14 @@ section.contenuto-partner>h2{
 
 }
 
-@media all and (min-width:1400px) {
+@media all and (min-width:768px){
 
     .img-partner{
         height: 150px;
     }
 }
+
+
 
 
 

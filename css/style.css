@@ -1,14 +1,38 @@
+/* css reset */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* css generale */
+
 body{
     font-family: 'PT Sans', sans-serif;
 }
 
-/* ---------- */
+/* css in comune */
+
+.f-bold {
+    font-weight: bold;
+}
+
+.bottone-bianco{
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+.bottone-viola{
+    color: white;
+    border: none;
+    background-color: #9792e4;
+    border-radius: 25px;
+}
+
+
+/* css header */
 
 header{
     background-color: #0084fd;
@@ -47,10 +71,8 @@ header{
 }
 
 .bottone-header{
-    background-color: white;
-    border: none;
+    
     padding: 0.5rem 1rem;
-    border-radius: 25px;
 
 }
 
@@ -89,7 +111,7 @@ header{
     
 }
 
-/* -------------------- */
+/* css prima section */
 
 
 .card{
@@ -228,7 +250,7 @@ div.card>p{
 
 
 
-/* ----------------------- */
+/* css seconda section */
 
 
 .section-viola{
@@ -294,7 +316,7 @@ div.card-white>p{
     .contenuto-plan{
         flex-direction: row;
     
-       height: 90vh;
+       height: 80vh;
 
     
     
@@ -310,7 +332,7 @@ div.card-white>p{
     }
     
 }
-/* ? vedere meglio ? */
+
 @media all and (min-width:1200px) {
 
     .contenuto-plan{
@@ -319,7 +341,7 @@ div.card-white>p{
     
 }
 
-/* ------------ */
+/* css terza section */
 
 
 .contenuto-partner{
@@ -423,7 +445,7 @@ section.contenuto-partner>h2{
 
 
 
-/* -------------- */
+/* css quarta section */
 
 .contenuto-benefici{
 
@@ -434,11 +456,9 @@ section.contenuto-partner>h2{
 
 
 .bottone-more{
-    color: white;
+   
+    
     padding: 0.5rem 2rem;
-    border: none;
-    border-radius: 25px;
-    background-color: #9792e4;
 
     margin: 1rem 0;
 }
@@ -495,7 +515,7 @@ div.section-viola>h2{
 
 }
 
-/* ------------------- */
+/* css quinta section */
 
 
 .contenuto-generale{
@@ -515,11 +535,8 @@ div.contenitori-contenuto-generale>p{
 }
 
 .bottone-linkedin{
-    border: none;
-    background-color: #9792e4;
-    color: white;
+    
     padding: 0.5rem 1rem;
-    border-radius: 25px;
 }
 
 .img-about{
@@ -548,9 +565,7 @@ div.contenitori-contenuto-generale>i{
     color: #9792e4;
 }
 
-.f-bold{
-    font-weight: bold;
-}
+
 
 @media all and (min-width:768px) {
 
@@ -574,7 +589,7 @@ div.contenitori-contenuto-generale>i{
     
 }
 
-/* ------------ */
+/* css sesta section */
 
 .contenuto-finale{
     flex-direction: column;
@@ -587,11 +602,8 @@ div.contenitori-contenuto-generale>i{
     margin: 1rem auto;
 
     color: #9792e4;
-    border-radius: 25px;
-    border: none;
     padding: 0.8rem 0;
 
-    background-color: white;
     font-size: 1.1rem;
     font-weight: bold;
 }
@@ -637,7 +649,7 @@ div.contenitori-contenuto-generale>i{
     color: white;
 }
 
-/* -------------- */
+/* css footer */
 
 .footer{
 

@@ -296,6 +296,8 @@ div.card>p{
 
 .planning2{
     width: 80%;
+
+    padding-top: 1rem;
 }
 
 .color-white{
@@ -363,13 +365,13 @@ div.card-white>p{
 
     div.contenitore-contenuto-planning>h2{
 
-        bottom: 15%;
+        bottom: 20%;
         left: 15%;
     }
 
     div.contenitore-contenuto-planning>p{
         width: 35%;
-        bottom: 0;
+        bottom: 5%;
         left: 15%;
     }
     

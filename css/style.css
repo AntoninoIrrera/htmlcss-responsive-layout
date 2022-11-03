@@ -650,3 +650,9 @@ div.contenitori-contenuto-generale>i{
 footer{
     background-color: #333333;
 }
+
+
+
+section.footer a{
+    color: #9792e4;
+}

@@ -96,7 +96,7 @@ header{
 
     .conteiner {
         
-        width: 80%;
+        width: 1000px;
         margin: 0 auto;
     }
 
@@ -112,6 +112,9 @@ header{
         width: 10%;
     }
     
+    .navbar{
+        padding-right: 1.5rem;
+    }
 }
 
 /* css prima section */
@@ -261,6 +264,7 @@ div.card>p{
 
 
 
+
 /* css seconda section */
 
 
@@ -371,6 +375,23 @@ div.card-white>p{
     
 }
 
+@media all and (min-width:1500px){
+    .planning1{
+        width: 20%;
+        left: 28%;
+    }
+
+    div.contenitore-contenuto-planning>h2 {
+       
+       left: 28%;
+    }
+
+    div.contenitore-contenuto-planning>p {
+        width: 20%;
+       
+        left: 28%;
+    }
+}
 
 /* css terza section */
 
